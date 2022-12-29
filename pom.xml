@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bdv.microservicios</groupId>
-	<artifactId>Msvc-tblcheques</artifactId>
+	<artifactId>Dummy-tblcheques</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Msvc-tblcheques</name>
-	<description>Microservcio para gestión de cheques</description>
+	<name>Dummy-tblcheques</name>
+	<description>Dummy del microservcio para gestión de cheques</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -55,6 +55,7 @@
     </dependencies>
 
 	<build>
+		<finalName>dummy-tblcheques</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
