@@ -23,7 +23,7 @@ public class Tblcheque implements Serializable {
     Long id;
 
     @Column(name="FechaContable")
-    String fechaContable;
+    String fechacontable;
 
 
     @Column(name="Cod_Banco")
@@ -62,7 +62,7 @@ public class Tblcheque implements Serializable {
 
 
     @Column(name="TranCode")
-    String tranCode;
+    String trancode;
 
 
     @Column(name="Monto")
@@ -85,11 +85,11 @@ public class Tblcheque implements Serializable {
 
 
     @Column(name="CuentaDepo")
-    String cuentaDepo;
+    String cuentadepo;
 
 
     @Column(name="SerialP")
-    String serialP;
+    String serialp;
 
 
     @Column(name="Dna")
@@ -117,7 +117,7 @@ public class Tblcheque implements Serializable {
 
 
     @Column(name="TransmitidoOracle")
-    String transmitidoOracle;
+    String transmitidooracle;
 
 
 
